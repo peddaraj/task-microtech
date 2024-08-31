@@ -1,0 +1,3 @@
+Steps ->
+1. docker compose up -d
+2. Hit URL http://localhost:8000/fetch-data in your browser after the container is up

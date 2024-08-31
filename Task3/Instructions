@@ -1,0 +1,3 @@
+curl -X POST http://localhost:8000/records -H "Content-Type: application/json" -d "{\"name\": \"Toronto Baptist Seminary and Bible College TestEntry\", \"state_province\": \"Ontario\"}"
+
+curl -X PUT http://localhost:8000/records -H "Content-Type: application/json" -d "{\"name\": \"PutEntryTest\", \"state_province\": \"Ontario\"}"
